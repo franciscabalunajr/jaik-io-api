@@ -6,7 +6,7 @@ Published at **https://api.jaik.io**. One Go service; each endpoint is a route i
 | Route | Methods |
 |---|---|
 | `/healthz` | GET |
-| `/books`, `/books/{id}` | GET, POST / GET, PUT, DELETE (PostgreSQL-backed CRUD operations)) data, no database yet) |
+| `/books`, `/books/{id}` | GET, POST / GET, PUT, DELETE (PostgreSQL-backed CRUD operations)|
 
 Run locally: `go run ./cmd/api` then `curl localhost:8080/books`. Tests: `go test ./...`.
 
